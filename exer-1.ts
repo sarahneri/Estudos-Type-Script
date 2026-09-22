@@ -32,3 +32,17 @@ export function LogUser(user: Users): void {
 }
 
 
+export function logPerson(user: Users): void { 
+    let additionnalInformation: string ;
+
+        
+      if (user.profession) {
+        additionnalInformation = `Profession: ${user.profession}`;
+        console.log(additionnalInformation);
+      };
+    
+    
+    // ...existing code...) {
+
+
+
