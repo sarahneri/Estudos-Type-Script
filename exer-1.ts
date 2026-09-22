@@ -19,27 +19,17 @@ export const isabella: Users = {
   profession: "Designer"
 };
 
-export function LogUser(user: Users): void { 
-    //console.log(`Name: ${user.name}`) , ${`Age: ${user.age}`}, ${`Email: ${user.email}`}, ${`Profession: ${user.profession}`};
-
-        console.log(
-      `Name: ${user.name} | Age: ${user.age} | Email: ${user.email} | Profession: ${user.profession}`
-    );    console.log(
-      `Name: ${user.name} | Age: ${user.age} | Email: ${user.email} | Profession: ${user.profession}`
-    );
-
-    
+export function LogUser(user: Users): void {
+  console.log(
+    `Name: ${user.name} | Age: ${user.age} | Email: ${user.email} | Profession: ${user.profession ?? "Not informed"}`
+  );
 }
 
+export function logPerson(user: Users): void {
+  const additionalInformation = user.profession
+    ? `Profession: ${user.profession}`
+    : "Profession: Not informed";
 
-export function logPerson(user: Users): void { 
-    let additionnalInformation: string ;
-
-        
-      if (user.profession) {
-        additionnalInformation = `Profession: ${user.profession}`;
-        console.log(additionnalInformation);
-      };
-    
-    
+  console.log(additionalInformation);
+}
 
