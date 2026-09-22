@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "name": "estudos-type-script",
+  "version": "1.0.0",
+  "description": "bemmmm vindos aos meus estudos de métodos do type script <3>",
+  "main": "exer-1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahneri/Estudos-Type-Script.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sarahneri/Estudos-Type-Script/issues"
+  },
+  "homepage": "https://github.com/sarahneri/Estudos-Type-Script#readme"
+}
