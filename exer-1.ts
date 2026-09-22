@@ -42,7 +42,4 @@ export function logPerson(user: Users): void {
       };
     
     
-    // ...existing code...) {
-
-
 
