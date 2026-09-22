@@ -7,7 +7,7 @@
   "description": "bemmmm vindos aos meus estudos de métodos do type script <3>",
   "main": "exer-1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx tsc --noEmit"
   },
   "repository": {
     "type": "git",
